@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { FaHome } from "react-icons/fa";
+// import { FaHome } from "react-icons/fa";
+import { BsHouseDoor } from "react-icons/bs"
 import { HiOutlineFolderAdd } from "react-icons/hi";
 import { BsPersonVcard } from "react-icons/bs";
 import { BsTelephonePlus } from "react-icons/bs";
@@ -18,7 +19,7 @@ function Sidebar() {
         </div>
         <ul className="navegacao">
           <li>
-            <span><FaHome /></span>
+            <span><BsHouseDoor /></span>
             <Link to="/">Home</Link>
           </li>
           <li>

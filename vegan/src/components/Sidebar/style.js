@@ -21,7 +21,11 @@ export const SideBar_Container = styled.div`
     left: 0;
     bottom: 0;
     background-color: transparent;
-    border-right: 0.01rem solid #000;    
+    border-right: 0.01rem solid #000;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: .30s;     */
 }
 
 .navegacao{
@@ -61,7 +65,7 @@ export const SideBar_Container = styled.div`
     display: flex;
     align-items: center;
     gap: 0.4rem;
-    padding: 0.5rem 0.2rem;
+    padding: 0.5rem 0.2rem 0 0.2rem;
 
     span{
         color: #4EEA18;
