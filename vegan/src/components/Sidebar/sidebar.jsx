@@ -7,7 +7,7 @@ import { BsTelephonePlus } from "react-icons/bs";
 import { BsBoxArrowRight } from "react-icons/bs";
 
 import * as S from "./style"
-import img from "../../assets/react.svg"
+import img from "../../assets/foto-email.jpg"
 
 function Sidebar() {
   return (
@@ -24,11 +24,11 @@ function Sidebar() {
           </li>
           <li>
             <span><HiOutlineFolderAdd /></span>
-            <Link>Minhas Categorias</Link>
+            <Link to="minhascategorias">Minhas Categorias</Link>
           </li>
           <li>
             <span><BsPersonVcard /></span>
-            <Link>Sobre Nos</Link>
+            <Link to="sobrenos">Sobre Nos</Link>
           </li>
           <li>
             <span><BsTelephonePlus /></span>
