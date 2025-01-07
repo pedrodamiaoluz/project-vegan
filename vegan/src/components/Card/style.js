@@ -152,7 +152,7 @@ export const StyledWrapper = styled.div`
   .card-btn {
     height: 35px;
     background: var(--bg-color);
-    border: 2px solid var(--main-color);
+    border: 2px solid #4EEA18;
     border-radius: 5px;
     padding: 0 15px;
     transition: all 0.3s;
@@ -161,7 +161,7 @@ export const StyledWrapper = styled.div`
   .card-btn svg {
     width: 100%;
     height: 100%;
-    fill: var(--main-color);
+    fill: #4EEA18;
     transition: all 0.3s;
   }
 
