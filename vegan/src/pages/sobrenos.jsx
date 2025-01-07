@@ -1,14 +1,14 @@
 import Header from "../components/Header/header";
 import "../../src/App.css"
-import { PagesContainer } from "./style";
+import * as S from "./style";
 
 function SobreNos() {
-  return (
-    
-        <PagesContainer>
-      <div className="container">
-        <Header />
-        <div class="sobre_nos">
+    return (
+
+        <div className="container">
+            <Header />
+            <S.PagesContainer>
+                <div class="sobre_nos">
                     <div class="sobre_nos-leude">
                         <span><a>Home/ </a>Sobre Nós</span>
                         <h1>Sobre Nos</h1>
@@ -61,9 +61,9 @@ function SobreNos() {
                         </p>
                     </div>
                 </div>
-      </div>
-        </PagesContainer>
-  )
+            </S.PagesContainer>
+        </div>
+    )
 }
 
 export default SobreNos;

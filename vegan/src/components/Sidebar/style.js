@@ -21,7 +21,8 @@ export const SideBar_Container = styled.div`
     left: 0;
     bottom: 0;
     background-color: transparent;
-    border-right: 0.01rem solid #000;
+    border-right: 0.01rem solid rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     /* display: flex;
     flex-direction: column;
     justify-content: space-between;
