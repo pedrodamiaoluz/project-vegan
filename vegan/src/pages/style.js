@@ -39,11 +39,10 @@ export const PagesContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     gap: 2rem;
 
     h1{
-        color: #56C033;
+    color: #56C033;
     font-size: 35px;
     margin-top: 20px;
     }
@@ -194,6 +193,41 @@ export const PagesContainer = styled.div`
     padding: 5px;
     border: 1px solid #56C033;
     outline: none;
+}
+
+// configuracoes da pagina home
+
+.tornar__vegano_container{
+    background-color: transparent;
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+.tornar__vegano_container > img{
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+}  
+
+.tornar__veg-conteudo{
+  width: 300px;
+  height: 300px;
+  word-wrap: break-word;
+}
+
+.tornar__veg-conteudo h1{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #354132;
+}
+
+.tornar__veg-conteudo p{
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    text-align: justify;
 }
 
 `
