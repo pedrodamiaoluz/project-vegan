@@ -161,7 +161,7 @@ export const StyledWrapper = styled.div`
   .card-btn svg {
     width: 100%;
     height: 100%;
-    fill: #4EEA18;
+    fill: #000;
     transition: all 0.3s;
   }
 
@@ -170,11 +170,11 @@ export const StyledWrapper = styled.div`
   }
 
   .card-btn:hover {
-    border: 2px solid var(--main-focus);
+    border: 2px solid #4EEA18;
   }
 
   .card-btn:hover svg {
-    fill: var(--main-focus);
+    fill: #4EEA18;
   }
 
   .card-btn:active {
