@@ -18,15 +18,12 @@ export default function Header() {
                     <S.Input type="text" placeholder="Pesquise produto, marcas, etc..." />
                     <AiOutlineSearch />
                 </S.Inputs>
+            </S.Container_Input>
                 <S.Container_Icons>
-                    <a href="./Login/login.html">
-                        <IoMdPerson />
-                    </a>
                     <a href="./Carrinho/adicionarcarrino.html">
-                        <IoCartOutline />
+                        <IoCartOutline className="iconC" />
                     </a>
                 </S.Container_Icons>
-            </S.Container_Input>
 
         </S.Container>
 

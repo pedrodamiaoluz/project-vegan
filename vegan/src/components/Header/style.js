@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import logo2 from "../../assets/logo2.jpg"
 
 export const Container = styled.div`
   /* position: fixed;
@@ -9,8 +10,8 @@ export const Container = styled.div`
   z-index: 1; */
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
+  gap: 5rem;
+  /* padding: 1rem 0 1rem 1rem; */
   background-color: transparent;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 `;
@@ -64,15 +65,35 @@ export const Container_Input = styled.div`
    color: #000;
 `
 export const Container_Icons = styled.div`
+   /* background-color: #56C033; */
+   background-image: url(${logo2});
+   background-size: cover;
+   background-position: center;
+   width: 200px;
+   height: 110px;
    display: flex;
    align-items: center;
-   justify-content: center;
+   justify-content: flex-start;
+   margin-left: 20px;
    gap: 5px;
    color: #000;
-   font-size: 1.5rem;
+   font-size: 1.2rem;
 
    a{
       text-decoration: none;
       color: #000;
+   }
+
+   .iconC{
+      background-color: #fff;
+      width: 40px;
+      height: 40px;
+      margin-left: 38px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #000;
+      padding: 5px;
    }
 `
