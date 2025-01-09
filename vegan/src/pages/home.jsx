@@ -5,22 +5,24 @@ import { StyledWrapper } from "../components/Card/style";
 import Header from "../components/Header/header";
 import { PagesContainer } from "./style";
 import mulherhome from "../assets/mulher-home.jpg"
+import  Swiper from "../components/Swiper/swiper";
 
 function Home() {
   return (
     <PagesContainer>
       <div className="container">
         <Header />
+        <Swiper />
         <StyledWrapper>
           <h1 className="titulo">Alimentos Integrais</h1>
           <div className="card_container">
             {ArrayCard.map((item) => {
-              return (
-                <Card
-                  src={item.url}
-                  title={item.tex}
-                />
-              )
+              // return (
+              //   <Card
+              //     src={item.url}
+              //     title={item.tex}
+              //   />
+              // )
             })}
           </div>
         </StyledWrapper>
