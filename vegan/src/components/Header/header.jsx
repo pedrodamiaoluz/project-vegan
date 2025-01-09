@@ -2,12 +2,9 @@ import "../../App.css";
 import * as S from "./style";
 import logo from "../../assets/logo.png";
 import { AiOutlineSearch } from "react-icons/ai";
-import { IoMdPerson } from "react-icons/io";
 import { IoCartOutline } from "react-icons/io5";
 
-
-
-export default function Header() {
+function Header() {
     return (
         <S.Container>
             <div class="header__logo">
@@ -29,3 +26,5 @@ export default function Header() {
 
     )
 }
+
+export default Header
