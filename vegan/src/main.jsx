@@ -10,14 +10,19 @@ import Home from './pages/home.jsx';
 import Contact from './pages/contact.jsx';
 import MinhasCategorias from './pages/minhascategorias.jsx';
 import SobreNos from './pages/sobrenos.jsx';
+import Login from './components/Login/login.jsx';
 
 const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Login />,
+  },
   {
     path: "/",
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "/home",
         element: <Home />,
       },
       {

@@ -20,7 +20,7 @@ function Sidebar() {
         <ul className="navegacao">
           <li>
             <span><BsHouseDoor /></span>
-            <Link to="/">Home</Link>
+            <Link to="/home">Home</Link>
           </li>
           <li>
             <span><HiOutlineFolderAdd /></span>
@@ -37,7 +37,7 @@ function Sidebar() {
         </ul>
         <div className="sidebar_desconect">
           <span><BsBoxArrowRight/></span>
-          <Link>Desconectar</Link>
+          <Link to="/">Desconectar</Link>
         </div>
       </div>
     </S.SideBar_Container>
