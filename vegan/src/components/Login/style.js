@@ -79,6 +79,19 @@ export const Login_Container = styled.div`
     justify-content: space-between;
   }
 
+  .row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .row > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
   .flex-row > div > label {
     font-size: 14px;
     color: black;
@@ -91,6 +104,11 @@ export const Login_Container = styled.div`
     color: #2d79f3;
     font-weight: 500;
     cursor: pointer;
+
+    a{
+      text-decoration: none;
+      color: #2d79f3;
+    }
   }
 
   .button-submit {
@@ -138,4 +156,117 @@ export const Login_Container = styled.div`
     border: 1px solid #2d79f3;
     ;
   }
+
+  /*configuração do formulario de cadatre-se*/
+
+.cadastre-se{
+    background-color: #fff;
+    max-width: 600px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 2rem;
+    box-shadow: 0 0 4px #bdbcbc;
+}
+
+.cadastre-se .cadastre__se-conteudo h1{
+     font-size: 40px;
+     font-weight: bold;
+     color: #2E332C;
+}
+
+.cadastre__se-conteudo p, .senha__container-titulo p{
+    text-align: center;
+    margin: 20px 0;
+ }
+
+ .cadastre-se form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .cadastre-se form input{
+    width: 500px;
+    height: 40px;
+    padding: 5px;
+    outline: none;
+ }
+
+ .cadastre-se form label{
+    padding: 8px 0;
+ }
+
+ .button_cadastro{
+    margin: 40px auto 20px auto;
+ }
+
+ .button_cadastro button{
+    text-decoration: none;
+    color: #569641;
+    font-weight: 600;
+    background-color: transparent;
+    padding: 10px 100px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 5px;
+    transition: .7s;
+    border: 1px solid #56C033;
+    cursor: pointer;
+
+    a{
+        text-decoration: none;
+        color: #569641;
+    }
+ }
+
+ .button_cadastro button:hover{ 
+    background-color: #56C033;
+    color: #fff;
+}
+
+
+ /*configuração sobre Esqueceu senha*/
+
+//  .esqueceu__senha-container{
+//   margin: 30px auto;
+//  }
+
+// .esqueceu__senha-container > form{
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+// }
+
+// .esqueceu__senha-container > form label{
+//   padding: 8px 0;
+// }
+
+// .esqueceu__senha-container > form input{
+//   width: 500px;
+//   height: 40px;
+//   padding: 5px;
+//   outline: none;
+// }
+
+// .button__esqueceu-senha{
+//   margin: 50px auto;
+// }
+
+// .button__esqueceu-senha > button, a{
+//   text-decoration: none;
+//   color: #569641;
+//   font-weight: 600;
+//   background-color: transparent;
+//   padding: 10px 80px;
+//   text-align: center;
+//   margin: 20px auto;
+//   border-radius: 5px;
+//   border: 1px solid #56C033;
+//   cursor: pointer;
+//   transition: background-color .4s ease;
+// }
+
 `

@@ -26,16 +26,16 @@ function Login() {
                             <input placeholder="Enter your Password" className="input" type="password" />
                         </div>
                         <div className="flex-row">
-                            <div>
+                            <div className="row">
                                 <input type="radio" />
                                 <label>Remember me </label>
                             </div>
-                            <span className="span">Forgot password?</span>
+                            <span className="span"><Link to="/esqueceusenha">Forgot password?</Link></span>
                         </div>
                         <button className="button-submit">
                             <Link to="/home">Sign In</Link>
                         </button>
-                        <p className="p">Don't have an account? <span className="span">Sign Up</span>
+                        <p className="p">Don't have an account? <span className="span"><Link to="/escrevase">Sign Up</Link></span>
                         </p><p className="p line">Or With</p>
                         <div className="flex-row">
                             <button className="btn google">

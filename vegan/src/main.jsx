@@ -11,6 +11,8 @@ import Contact from './pages/contact.jsx';
 import MinhasCategorias from './pages/minhascategorias.jsx';
 import SobreNos from './pages/sobrenos.jsx';
 import Login from './components/Login/login.jsx';
+import EscrevaSe from './components/Login/escrevase.jsx';
+import EsqueceuSenha from './components/Login/esqueceusenha.jsx';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +38,14 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact />,
+      },
+      {
+        path: "escrevase",
+        element: <EscrevaSe />,
+      },
+      {
+        path: "esqueceusenha",
+        element: <EsqueceuSenha />,
       }
     ]
   }
