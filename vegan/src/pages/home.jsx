@@ -17,12 +17,12 @@ function Home() {
           <h1 className="titulo">Alimentos Integrais</h1>
           <div className="card_container">
             {ArrayCard.map((item) => {
-              // return (
-              //   <Card
-              //     src={item.url}
-              //     title={item.tex}
-              //   />
-              // )
+              return (
+                <Card
+                  src={item.url}
+                  title={item.tex}
+                />
+              )
             })}
           </div>
         </StyledWrapper>
