@@ -19,7 +19,7 @@ function EsqueceuSenha() {
                     </form>
 
                     <div class="button__esqueceu-senha">
-                        <Link>Continuar</Link>
+                        <Link to="/novasenha">Continuar</Link>
                     </div>
                 </div>
             </div>

@@ -15,7 +15,9 @@ export const Login_Container = styled.div`
 
 .login_img img{
     width: 550px;
-    height: 100vh;
+    height: 525px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
     object-fit: cover;
 }
 
@@ -230,43 +232,138 @@ export const Login_Container = styled.div`
 
  /*configuração sobre Esqueceu senha*/
 
-//  .esqueceu__senha-container{
-//   margin: 30px auto;
-//  }
+  .esqueceu__senha-container, .senha__container-titulo{
+   margin: 30px auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
 
-// .esqueceu__senha-container > form{
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-// }
+ .esqueceu__senha-container > form{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
 
-// .esqueceu__senha-container > form label{
-//   padding: 8px 0;
-// }
+ .esqueceu__senha-container > form label{
+   padding: 8px 0;
+ }
 
-// .esqueceu__senha-container > form input{
-//   width: 500px;
-//   height: 40px;
-//   padding: 5px;
-//   outline: none;
-// }
+ .esqueceu__senha-container > form input{
+   width: 500px;
+   height: 40px;
+   padding: 5px;
+   outline: none;
+ }
 
-// .button__esqueceu-senha{
-//   margin: 50px auto;
-// }
+ .button__esqueceu-senha{
+   margin: 50px auto;
+ }
 
-// .button__esqueceu-senha > button, a{
-//   text-decoration: none;
-//   color: #569641;
-//   font-weight: 600;
-//   background-color: transparent;
-//   padding: 10px 80px;
-//   text-align: center;
-//   margin: 20px auto;
-//   border-radius: 5px;
-//   border: 1px solid #56C033;
-//   cursor: pointer;
-//   transition: background-color .4s ease;
-// }
+ .button__esqueceu-senha a{
+   text-decoration: none;
+   color: #569641;
+   font-weight: 600;
+   background-color: transparent;
+   padding: 10px 80px;
+   text-align: center;
+   margin: 20px auto;
+   border-radius: 5px;
+   border: 1px solid #56C033;
+   cursor: pointer;
+   transition: background-color .4s ease;
+ }
 
+ .button__esqueceu-senha{
+    margin: 50px auto;
+ }
+
+ .button__esqueceu-senha a{
+    text-decoration: none;
+    color: #569641;
+    font-weight: 600;
+    background-color: transparent;
+    padding: 10px 80px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: 1px solid #56C033;
+    cursor: pointer;
+    transition: background-color .4s ease;
+ }
+
+ /*Configurações sobre nova senha*/
+
+.container_novasenha{
+    max-width: 600px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 2rem;
+    box-shadow: 0 0 4px #bdbcbc;;
+}
+
+.titulo__novasenha h1{
+    font-size: 40px;
+     font-weight: bold;
+     color: #2E332C;
+}
+
+.titulo__novasenha p{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container_novasenha > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container_novasenha > form input{
+    width: 500px;
+    height: 40px;
+    padding: 5px;
+    outline: none;
+}
+
+.container_novasenha > form label{
+    padding: 8px 0;
+}
+
+.button__novasenha{
+  margin: 20px auto 0 auto;
+}
+
+.button__novasenha a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    background-color: #56C033;
+    padding: 10px 100px;
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: none;
+    transition: .2s;
+    cursor: pointer;
+
+    a{
+      color: #fff;
+      text-decoration: none;
+      background-color: #56C033;
+    
+    }
+
+  
+    &:hover{  
+        background-color: transparent;
+        border: 1px solid #56C033;
+        color: #569641;
+    }
+
+}
 `
